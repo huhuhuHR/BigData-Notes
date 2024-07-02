@@ -1,0 +1,775 @@
+repo_name: huhuhuHR/BigData-Notes
+report_id: 85820bfaeecc080b4a1f14860ad6b9a5
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:27:45+00:00'
+requested_by: heibaiying
+provider: github
+branch: master
+detected_tools_count: 48
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes
+  detection_source: Repo Metadata
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: HBase
+  description: The Hadoop database, a distributed, scalable, big data store
+  website_url: http://hbase.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1043/HBase-Twitter3.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hbase/hbase-java-api-1.x/pom.xml
+  detection_source: code/Hbase/hbase-java-api-1.x/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-10 09:34:17.000000000 Z
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hadoop/hadoop-word-count/pom.xml
+  detection_source: code/Hadoop/hadoop-word-count/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-21 11:23:13.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Kafka/kafka-basis/pom.xml
+  detection_source: code/Kafka/kafka-basis/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-05-29 07:43:07.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-kafka-integration/pom.xml
+  detection_source: code/Flink/flink-kafka-integration/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-31 02:08:37.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/spark/spark-streaming-basis/pom.xml
+  detection_source: code/spark/spark-streaming-basis/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-05-27 05:43:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hadoop/hdfs-java-api/pom.xml
+  detection_source: code/Hadoop/hdfs-java-api/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-21 11:23:13.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.7.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-java/pom.xml
+  detection_source: code/Flink/flink-basis-java/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-23 09:55:30.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-java/pom.xml
+  detection_source: code/Flink/flink-basis-java/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-23 09:55:30.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Zookeeper/curator/pom.xml
+  detection_source: code/Zookeeper/curator/pom.xml
+  last_updated_by: luoxiang
+  last_updated_on: 2019-05-25 09:43:03.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-boot-mybatis-phoenix/src/main/resources/application.yml
+  detection_source: code/Phoenix/spring-boot-mybatis-phoenix/src/main/resources/application.yml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  version: 1.2.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-java/pom.xml
+  detection_source: code/Flink/flink-basis-java/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-23 09:55:30.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Log4j 1.2.x
+    cve_id: CVE-2022-23305
+    cve_url: https://github.com/advisories/GHSA-65fg-84f6-3jq3
+    detected_date: Jan 22
+    severity: critical
+    first_patched:
+  - name: Deserialization of Untrusted Data in Apache Log4j
+    cve_id: CVE-2022-23307
+    cve_url: https://github.com/advisories/GHSA-f7vh-qwp3-x37m
+    detected_date: Nov 26
+    severity: critical
+    first_patched:
+  - name: Deserialization of Untrusted Data in Log4j
+    cve_id: CVE-2019-17571
+    cve_url: https://github.com/advisories/GHSA-2qrg-x229-3v8q
+    detected_date: Aug 22
+    severity: critical
+    first_patched:
+  - name: Deserialization of Untrusted Data in Log4j 1.x
+    cve_id: CVE-2022-23302
+    cve_url: https://github.com/advisories/GHSA-w9p3-5cr8-m3jj
+    detected_date: Jan 22
+    severity: high
+    first_patched:
+  - name: JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data
+    cve_id: CVE-2021-4104
+    cve_url: https://github.com/advisories/GHSA-fp5r-v3w9-4333
+    detected_date: Dec 15
+    severity: high
+    first_patched:
+- name: org.apache.hadoop:hadoop-common
+  description: Apache Hadoop Common
+  version: 2.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Storm/storm-hdfs-integration/pom.xml
+  detection_source: code/Storm/storm-hdfs-integration/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-19 09:58:15.000000000 Z
+  vulnerabilities:
+  - name: Path traversal in Hadoop
+    cve_id: CVE-2022-26612
+    cve_url: https://github.com/advisories/GHSA-gx2c-fvhc-ph4j
+    detected_date: Apr 13
+    severity: critical
+    first_patched: 3.2.3
+  - name: Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2
+    cve_id: CVE-2021-37404
+    cve_url: https://github.com/advisories/GHSA-rmpj-7c96-mrg8
+    detected_date: Jun 17
+    severity: critical
+    first_patched: 2.10.2
+  - name: Apache Hadoop argument injection vulnerability
+    cve_id: CVE-2022-25168
+    cve_url: https://github.com/advisories/GHSA-8wm5-8h9c-47pc
+    detected_date: Aug 12
+    severity: critical
+    first_patched: 2.10.2
+  - name: Improper Privilege Management in Apache Hadoop
+    cve_id: CVE-2020-9492
+    cve_url: https://github.com/advisories/GHSA-f8vc-wfc8-hxqh
+    detected_date: Feb 10
+    severity: high
+    first_patched: 2.10.1
+  - name: Apache Hadoop's LinuxContainerExecutor runs docker commands as root with
+      insufficient input validation
+    cve_id: CVE-2017-7669
+    cve_url: https://github.com/advisories/GHSA-h24p-qwf4-84q8
+    detected_date: Nov 23
+    severity: high
+    first_patched: 2.8.1
+  - name: Improper Access Control in Apache Hadoop
+    cve_id: CVE-2016-5393
+    cve_url: https://github.com/advisories/GHSA-7q56-mp4c-gggg
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.6.5
+  - name: Insecure Inherited Permissions in  Apache Hadoop
+    cve_id: CVE-2016-6811
+    cve_url: https://github.com/advisories/GHSA-mf7c-35mq-75pj
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.7.4
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop
+    cve_id: CVE-2015-1776
+    cve_url: https://github.com/advisories/GHSA-g48f-ff5h-5f64
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 2.6.5
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop
+    cve_id: CVE-2016-5001
+    cve_url: https://github.com/advisories/GHSA-8r28-r8cp-g6cp
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 2.6.4
+- name: org.apache.zookeeper:zookeeper
+  version: 3.4.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Zookeeper/curator/pom.xml
+  detection_source: code/Zookeeper/curator/pom.xml
+  last_updated_by: luoxiang
+  last_updated_on: 2019-05-25 09:43:03.000000000 Z
+  vulnerabilities:
+  - name: Authorization Bypass Through User-Controlled Key vulnerability in Apache
+      ZooKeeper
+    cve_id: CVE-2023-44981
+    cve_url: https://github.com/advisories/GHSA-7286-pgfv-vxvh
+    detected_date: Oct 12
+    severity: critical
+    first_patched: 3.7.2
+  - name: Access control bypass in Apache ZooKeeper
+    cve_id: CVE-2019-0201
+    cve_url: https://github.com/advisories/GHSA-2hw2-62cp-p9p7
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.4.14
+- name: org.apache.hadoop:hadoop-client
+  description: Apache Hadoop Client
+  version: 2.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hadoop/hadoop-word-count/pom.xml
+  detection_source: code/Hadoop/hadoop-word-count/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-21 11:23:13.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in Apache Hadoop
+    cve_id: CVE-2017-3162
+    cve_url: https://github.com/advisories/GHSA-pr9x-qmp5-j3rr
+    detected_date: Jul 2
+    severity: high
+    first_patched: 2.7.0
+  - name: Improper Neutralization of Input During Web Page Generation in Apache Hadoop
+    cve_id: CVE-2017-3161
+    cve_url: https://github.com/advisories/GHSA-qm7f-r83w-3p46
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: 2.7.0
+- name: org.apache.storm:storm-core
+  description: Storm Core Java API and Clojure implementation
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Storm/storm-hbase-integration/pom.xml
+  detection_source: code/Storm/storm-hbase-integration/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-18 08:51:38.000000000 Z
+  vulnerabilities:
+  - name: Exposure of Sensitive Information in Apache Storm Logviewer
+    cve_id: CVE-2019-0202
+    cve_url: https://github.com/advisories/GHSA-r9pv-hg64-jqrp
+    detected_date: Nov 5
+    severity: high
+    first_patched: 1.2.3
+- name: org.mybatis:mybatis
+  description: The MyBatis SQL mapper framework makes it easier to use a relational
+    database with object-oriented applications
+  version: 3.4.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+  vulnerabilities:
+  - name: '"Deserialization errors in MyBatis"'
+    cve_id: CVE-2020-26945
+    cve_url: https://github.com/advisories/GHSA-qq48-m4jx-xqh8
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.5.6
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hadoop/hdfs-java-api/pom.xml
+  detection_source: code/Hadoop/hdfs-java-api/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-21 11:23:13.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.16
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-kafka-integration/pom.xml
+  detection_source: code/Flink/flink-kafka-integration/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-31 02:08:37.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Authorization in MySQL Connector Java
+    cve_id: CVE-2021-2471
+    cve_url: https://github.com/advisories/GHSA-w6f2-8wx4-47r5
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 8.0.27
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+- name: org.apache.kafka:kafka-clients
+  version: 2.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Kafka/kafka-basis/pom.xml
+  detection_source: code/Kafka/kafka-basis/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-05-29 07:43:07.000000000 Z
+  vulnerabilities:
+  - name: Observable Discrepancy in Apache Kafka
+    cve_id: CVE-2021-38153
+    cve_url: https://github.com/advisories/GHSA-3j6g-hxx5-3q26
+    detected_date: Sep 6
+    severity: moderate
+    first_patched: 2.6.3
+- name: com.thoughtworks.paranamer:paranamer
+  description: Paranamer allows runtime access to constructor and method parameter
+    names for Java classes
+  version: '2.8'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/spark/spark-streaming-kafka/pom.xml
+  detection_source: code/spark/spark-streaming-kafka/pom.xml
+  last_updated_by: luoxiang
+  last_updated_on: 2019-05-26 08:38:00.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hadoop/hadoop-word-count/pom.xml
+  detection_source: code/Hadoop/hadoop-word-count/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-21 11:23:13.000000000 Z
+- name: org.apache.curator:curator-framework
+  description: High-level API that greatly simplifies using ZooKeeper
+  version: 4.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Zookeeper/curator/pom.xml
+  detection_source: code/Zookeeper/curator/pom.xml
+  last_updated_by: luoxiang
+  last_updated_on: 2019-05-25 09:43:03.000000000 Z
+- name: org.apache.curator:curator-recipes
+  description: All of the recipes listed on the ZooKeeper recipes doc
+  version: 4.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Zookeeper/curator/pom.xml
+  detection_source: code/Zookeeper/curator/pom.xml
+  last_updated_by: luoxiang
+  last_updated_on: 2019-05-25 09:43:03.000000000 Z
+- name: org.apache.flink:flink-java
+  description: The Apache Software Foundation provides support for the Apache community
+    of open-source software projects
+  version: 1.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-java/pom.xml
+  detection_source: code/Flink/flink-basis-java/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-24 07:10:34.000000000 Z
+- name: org.apache.flink:flink-streaming-java_2.11
+  version: 1.9.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-java/pom.xml
+  detection_source: code/Flink/flink-basis-java/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-24 07:10:34.000000000 Z
+- name: org.apache.flink:flink-streaming-scala_2.11
+  version: 1.9.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-scala/pom.xml
+  detection_source: code/Flink/flink-basis-scala/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-24 07:10:34.000000000 Z
+- name: org.apache.hadoop:hadoop-hdfs
+  description: Apache Hadoop HDFS
+  version: 2.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Storm/storm-hdfs-integration/pom.xml
+  detection_source: code/Storm/storm-hdfs-integration/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-19 09:58:15.000000000 Z
+- name: org.apache.hbase:hbase-client
+  description: Client of HBase
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hbase/hbase-java-api-1.x/pom.xml
+  detection_source: code/Hbase/hbase-java-api-1.x/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-10 09:34:17.000000000 Z
+- name: org.apache.hbase:hbase-common
+  description: Common functionality for HBase
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hbase/hbase-observer-coprocessor/pom.xml
+  detection_source: code/Hbase/hbase-observer-coprocessor/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-08 09:26:21.000000000 Z
+- name: org.apache.hbase:hbase-server
+  description: Main functionality for HBase
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Hbase/hbase-observer-coprocessor/pom.xml
+  detection_source: code/Hbase/hbase-observer-coprocessor/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-08 09:26:21.000000000 Z
+- name: org.mybatis.spring.boot:mybatis-spring-boot-starter
+  description: Spring Boot Support for MyBatis
+  version: 1.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: org.mybatis:mybatis-spring
+  description: An easy-to-use Spring bridge for MyBatis sql mapping framework
+  version: 1.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-java/pom.xml
+  detection_source: code/Flink/flink-basis-java/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-24 07:10:34.000000000 Z
+- name: org.scala-lang:scala-library
+  description: Standard library for the Scala Programming Language
+  version: 2.11.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-scala/pom.xml
+  detection_source: code/Flink/flink-basis-scala/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-24 07:10:34.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  version: 1.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Flink/flink-basis-java/pom.xml
+  detection_source: code/Flink/flink-basis-java/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-10-24 07:10:34.000000000 Z
+- name: org.slf4j:slf4j-nop
+  description: SLF4J NOP Binding
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Kafka/kafka-basis/pom.xml
+  detection_source: code/Kafka/kafka-basis/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-05-29 07:43:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-boot-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: org.springframework:spring-beans
+  description: Spring Beans
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: org.springframework:spring-jdbc
+  description: Spring JDBC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/Phoenix/spring-mybatis-phoenix/pom.xml
+  detection_source: code/Phoenix/spring-mybatis-phoenix/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-04-05 00:45:16.000000000 Z
+- name: redis.clients:jedis
+  description: Jedis is a blazingly small and sane Redis java client
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/BigData-Notes/blob/master/code/spark/spark-streaming-basis/pom.xml
+  detection_source: code/spark/spark-streaming-basis/pom.xml
+  last_updated_by: 罗祥
+  last_updated_on: 2019-05-27 05:43:49.000000000 Z
